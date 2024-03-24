@@ -1,8 +1,8 @@
-const GameCard = ({ gameName, color}) => {
+const GameCard = ({ gameName}) => {
 
   return (
     <div>
-      <div className={`w-72 bg-white rounded-b-lg border-t-8 border-${color} px-4 py-5 flex flex-col justify-around shadow-md`}>
+      <div className={`w-72 bg-white rounded-b-lg border-t-8 border-green-400 px-4 py-5 flex flex-col justify-around shadow-md`}>
         <p className="text-lg font-bold font-sans">{gameName}</p>
         <div className="py-3">
           <p className="text-gray-400 text-sm">
